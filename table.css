@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.table{
+    width: 70%;
+    margin: 30px auto;
+   border-collapse: collapse;
+   box-shadow: 0 0 20px #ffd;
+   border-bottom: 3px solid #01987A;
+}
+.table th,
+.table td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+.thead th{
+    background: #01987A;
+    color: white;
+}
+.thead th:first-child{
+    border-radius: 10px 0 0 0;
+}
+.thead th:last-child{
+    border-radius: 0 10px 0 0;
+}
+ /* 
+ even - juft qiladigan
+/*
+
+ .tbody tr:nth-child(odd){
+    background: #9993;
+}
+
+
+
+
+
+
+

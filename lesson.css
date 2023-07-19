@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.p{
+    text-align: center;
+    color: red;
+}
+
+.btn{
+    padding: 8px 25px;
+    background: red;
+    color: #fff;
+    border: none;
+    margin: 20px;
+    border-radius: 50px;
+}
+.btn:hover{
+    opacity: .8;
+    cursor: pointer;
+    color: aqua;
+}
+.btn:active{
+    background: green;
+}
+.btn:disabled{
+    opacity: .6;
+    cursor: no-drop;
+}
+.you{
+    padding: 8px 25px;
+    background: red;
+    color: #fff;
+    border: none;
+    margin: 20px;
+    border-radius: 50px;
+}
+.you:hover{
+    opacity: .8;
+    cursor: pointer;
+    color: dodgerblue;
+}
+.you:active{
+    background: yellow;
+}
+.inp{
+    padding: 8px;
+  ;
+    color: green;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+.inp::placeholder{
+    color: brown;
+}
+.inp:focus{
+    outline: 2px solid  #bddeff;
+}
+
+.collection{
+    width: 100%;
+    height: 80px;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.item{
+    color: burlywood;
+}
+
+.item:first-child{
+    color: red;
+}
+.item:last-child{
+    color: aqua;
+}
+.item:nth-child(2){
+    color: darkgoldenrod;
+}
+
+.item{
+
+}
+.item:nth-child(4) button {
+background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
